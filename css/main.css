@@ -2,3 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
+li {
+    list-style-type: none;
+   }
