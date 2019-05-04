@@ -239,3 +239,50 @@ body {
     margin-right: 15px;
     margin-bottom: 150px;
 }
+
+/* about txt
+=========================*/
+
+.section-prices .item-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #2e3d44;
+    margin-top: 45px;
+}
+
+.section-prices .item-dscrpt {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    color: #3da3f1;
+}
+
+.section-prices .item-content {
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2e3d44;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-prices .item__button {
+    background: #ffce4b;
+    height: 55px;
+    width: 195px;
+    line-height: 55px;
+    text-align: center;
+    color: #2e3d44;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 100px auto;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 #d6ad41;
+}
+
+.bg_prices {
+    float: left;
+    width: 360px;
+}
