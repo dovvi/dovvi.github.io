@@ -5,15 +5,6 @@ body {
     margin: 0;
 }
 
-.logo {
-    float: left;
-    display: block;
-    background: url('../img/logo.png') no-repeat;
-    width: 125px;
-    height: 67px;
-    margin-top: 15px;
-}
-
 .site {
     background: #fff;
     max-width: 1920px;
@@ -26,8 +17,13 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    height: 100px;
+.logo {
+    float: left;
+    display: block;
+    background: url('../img/logo.png') no-repeat;
+    width: 125px;
+    height: 67px;
+    margin-top: 15px;
 }
 
 .menu ul {
@@ -35,6 +31,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+
 }
 
 .menu li {
@@ -58,15 +55,7 @@ body {
     text-decoration: none;
     line-height: 100px;
     height: 100px;
-    padding: 0 40px;
-}
-
-.menu.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 8;
+    padding: 0 35px;
 }
 
 .menu-cont {
@@ -221,10 +210,14 @@ body {
 
 .section-prices {
     position: relative;
-    height: 1200px;
-    background: url('../img/bg-prices_2.jpg') 
+    height: 800px;
+    background: url('../img/bg-prices-2.jpg') 
     no-repeat 50% 0;
-    background-attachment: fixed;
+}
+
+.section-prices .wrapper {
+    position: relative;
+    z-index: 1;
 }
 
 .section-prices .section-title--prices {
@@ -238,13 +231,11 @@ body {
 .section-prices .item-left-side {
     position: relative;
     float: left;
-    width: 360px;
+    width: 340px;
     margin-left: 15px;
-    margin-bottom: 150px;
+    margin-right: 15px;
+    margin-bottom: 50px;
 }
-
-/* about txt
-=========================*/
 
 .section-prices .item-title {
     font-size: 20px;
@@ -268,7 +259,7 @@ body {
     font-weight: 500;
     color: #2e3d44;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .section-prices .item__button {
@@ -287,9 +278,8 @@ body {
 
 .bg_prices {
     background: #fff;
-    padding: 15px;
     float: left;
-    width: 360px;
+    width: 340px;
 }
 
 .section-prices .order-dscrpt {
@@ -309,7 +299,21 @@ body {
     color: #2e3d44;
     font-size: 16px;
     font-weight: 700;
-    margin: 100px auto;
+    margin: 35px auto;
     border-radius: 3px;
     box-shadow: 0 2px 0 #d6ad41;
+}
+
+/* new */
+
+.section-offers {
+    position: relative;
+    height: 320px;
+    background: url('../img/bg-offers-3.jpg') 
+    no-repeat 50% 0;
+}
+
+.section-offers .wrapper {
+    position: relative;
+    z-index: 1;
 }
