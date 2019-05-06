@@ -125,6 +125,10 @@ body {
 /* SECTIONS 
 ======================== */
 
+.colortext {
+    color: #3da3f1;
+}
+
 .section {
     padding: 150px 0;
 }
@@ -139,7 +143,6 @@ body {
     width: 340px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 150px;
 }
 
 /* dscrp of about
@@ -147,10 +150,10 @@ body {
 
 .section-about {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     color: #2e3d44;
-    height: 600px;
+    height: 500px;
 }
 
 /* about txt
@@ -158,9 +161,10 @@ body {
 
 .section-about .item-dscrpt {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
+    line-height: 18pt;
     text-align: center;
-    color: #9b9b9b;
+    color: #9bb2ba;
     margin-top: 30px;
 }
 
@@ -179,7 +183,6 @@ body {
     color: #9b9b9b;
     margin-top: 45px;
     text-align: center;
-    margin-bottom: 100px;
 }
 
 /* all about img icons 
@@ -210,7 +213,6 @@ body {
 
 .section-prices {
     position: relative;
-    height: 800px;
     background: url('../img/bg-prices-2.jpg') 
     no-repeat 50% 0;
 }
@@ -221,7 +223,6 @@ body {
 }
 
 .section-prices .section-title--prices {
-    float: left;
     font-size: 40px;
     font-weight: 500;
     text-align: center;
@@ -232,6 +233,7 @@ body {
     position: relative;
     float: left;
     width: 340px;
+    margin-top: 50px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
@@ -242,7 +244,7 @@ body {
     font-weight: 500;
     text-align: center;
     color: #2e3d44;
-    margin-top: 45px;
+    margin: 40px auto;
 }
 
 .section-prices .item-dscrpt {
@@ -251,6 +253,7 @@ body {
     text-align: center;
     margin-top: 60px;
     color: #3da3f1;
+    margin: 20px auto;
 }
 
 .section-prices .item-content {
@@ -259,7 +262,7 @@ body {
     font-weight: 500;
     color: #2e3d44;
     text-align: center;
-    margin-top: 15px;
+    margin: 20px auto;
 }
 
 .section-prices .item__button {
@@ -283,7 +286,6 @@ body {
 }
 
 .section-prices .order-dscrpt {
-    margin-top: 280px;
     color: #2e3d44;
     text-align: center;
     font-size: 16px;
@@ -299,7 +301,7 @@ body {
     color: #2e3d44;
     font-size: 16px;
     font-weight: 700;
-    margin: 35px auto;
+    margin: 30px auto;
     border-radius: 3px;
     box-shadow: 0 2px 0 #d6ad41;
 }
@@ -308,7 +310,6 @@ body {
 
 .section-offers {
     position: relative;
-    height: 320px;
     background: url('../img/bg-offers-3.jpg') 
     no-repeat 50% 0;
 }
@@ -316,4 +317,11 @@ body {
 .section-offers .wrapper {
     position: relative;
     z-index: 1;
+}
+
+.section-offers .section-title--offers {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
 }
