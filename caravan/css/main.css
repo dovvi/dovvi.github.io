@@ -173,11 +173,20 @@ body {
 }
 
 .section-about .item-title {
+    z-index: 1;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
     color: #2e3d44;
     margin-top: 45px;
+}
+
+.section-about .under-title {
+    z-index: -1;
+    top: -85px;
+    position: relative;
+    color: #e9f4f7;
+    font-size: 80px;
 }
 
 .section-about .item-content {
@@ -219,18 +228,30 @@ body {
     position: relative;
     background: url('../img/bg-prices-2.jpg') 
     no-repeat 50% 0;
+    text-align: center;
+    font-weight: 600;
+    height: 700px;
 }
 
 .section-prices .wrapper {
     position: relative;
-    z-index: 1;
 }
 
 .section-prices .section-title--prices {
+    z-index: 1;
+    position: relative;
     font-size: 40px;
     font-weight: 500;
     text-align: center;
     color: #2e3d44;
+}
+
+.section-prices .under-title {
+    z-index: 0;
+    top: -135px;
+    position: relative;
+    color: #e9f4f7;
+    font-size: 80px;
 }
 
 .section-prices .item-left-side {
@@ -374,3 +395,4 @@ body {
     width: 365px;
     box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.1);
 }
+
