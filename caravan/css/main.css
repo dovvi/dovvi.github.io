@@ -346,6 +346,16 @@ body {
     color: #fff;
 }
 
+.section-offers .under-title {
+    z-index: 0;
+    top: -90px;
+    position: relative;
+    text-align: center;
+    opacity: 0.1;
+    color: #fff;
+    font-size: 80px;
+}
+
 .section-offers .wrapper {
     position: relative;
     z-index: 1;
@@ -375,21 +385,22 @@ body {
     margin-right: 15px;
 }
 
-.offer-title {
+.section-offers .offer-title {
     color: #3da3f1;
     font-size: 18px;
     font-weight: 500;
 }
 
-.offer-content {
+.section-offers .offer-content {
+    z-index: 2;
     color: #6b6b6b;
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
 }
 
-.offer-txt {
-    z-index: 999;
+.section-offers .offer-txt {
+    z-index: 3;
     padding: 40px;
     background: #fff;
     width: 365px;
