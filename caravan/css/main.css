@@ -114,17 +114,50 @@ body {
 
 .btn-long {
     background: #ffce4b;
+    color: #2e3d44;
     height: 55px;
     width: 300px;
-    line-height: 55px;
+    line-height: 60px;
     text-align: center;
-    color: #2e3d44;
     font-size: 16px;
     font-weight: 700;
     margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
     border-radius: 3px;
     box-shadow: 0 2px 0 #d6ad41;
 }
+
+.btn-long:after {
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.75s ease-in-out;
+}
+
+.btn-long:active:after {
+  width: 0px;
+  opacity: 1;
+  transition: 0s;
+}
+
+/* 
+.btn-long:hover {
+    background: #f3c13e;
+    box-shadow: 0 2px 0 #d6ad41
+}
+
+.btn-long:active {
+}
+*/
+
 
 /* SECTIONS 
 ======================== */
@@ -292,16 +325,38 @@ body {
 
 .section-prices .item__button {
     background: #ffce4b;
+    color: #2e3d44;
     height: 55px;
     width: 195px;
-    line-height: 55px;
+    line-height: 60px;
     text-align: center;
-    color: #2e3d44;
     font-size: 16px;
     font-weight: 700;
     margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
     border-radius: 3px;
     box-shadow: 0 2px 0 #d6ad41;
+}
+
+.section-prices .item__button:after {
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.75s ease-in-out;
+}
+
+.section-prices .item__button:active:after {
+    width: 0px;
+    opacity: 1;
+    transition: 0s;
 }
 
 .bg_prices {
@@ -319,16 +374,38 @@ body {
 
 .section-prices .order-dscrpt-button {
     background: #ffce4b;
+    color: #2e3d44;
     height: 55px;
     width: 240px;
-    line-height: 55px;
+    line-height: 60px;
     text-align: center;
-    color: #2e3d44;
     font-size: 16px;
     font-weight: 700;
     margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
     border-radius: 3px;
     box-shadow: 0 2px 0 #d6ad41;
+}
+
+.section-prices .order-dscrpt-button:after {
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.75s ease-in-out;
+}
+
+.section-prices .order-dscrpt-button:active:after {
+    width: 0px;
+    opacity: 1;
+    transition: 0s;
 }
 
 /* new */
@@ -358,7 +435,7 @@ body {
 
 .section-offers .wrapper {
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 .section-offers .item .offer-img {
@@ -377,6 +454,7 @@ body {
 }
 
 .section-offers .item-offer-left {
+    z-index: 5;
     position: relative;
     float: left;
     width: 540px;
