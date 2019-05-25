@@ -359,10 +359,16 @@ body {
     transition: 0s;
 }
 
-.bg_prices {
+.bg-prices {
     background: #fff;
     float: left;
     width: 340px;
+}
+
+.bg-prices:hover {
+    box-shadow: 0px 15px 30px 0px #e9f0f3;
+    transition: all 0.75s;
+    
 }
 
 .section-prices .order-dscrpt {
