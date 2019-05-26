@@ -1,10 +1,27 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-top: 50px;
-    margin-left: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background: #fff;
+  margin: 0;
+  list-style-type: none;
 }
 
-li {
-    list-style-type: none;
-   }
+.about-me {
+	background: #fcfcfc;
+	width: 900px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+}
+
+.title-about {
+	font-size: 24px;
+	text-align: center;
+	padding: 30px;
+	font-weight: 400;
+}
+
+.works {
+	padding: 5px 30px 30px 30px;
+}
