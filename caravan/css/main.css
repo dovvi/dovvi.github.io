@@ -220,6 +220,7 @@ body {
     position: relative;
     color: #e9f4f7;
     font-size: 80px;
+    font-weight: 400;
 }
 
 .section-about .item-content {
@@ -285,6 +286,7 @@ body {
     position: relative;
     color: #e9f4f7;
     font-size: 80px;
+    font-weight: 400;
 }
 
 .section-prices .item-left-side {
@@ -368,7 +370,7 @@ body {
 .bg-prices:hover {
     box-shadow: 0px 15px 30px 0px #e9f0f3;
     transition: all 0.75s;
-    
+
 }
 
 .section-prices .order-dscrpt {
@@ -459,6 +461,13 @@ body {
     background-image: url('../img/offers-img-2.jpg');
 }
 
+.section-offers .item.offer-3 .offer-img {
+    background-image: url('../img/offers-img-3.jpg');
+}
+.section-offers .item.offer-4 .offer-img {
+    background-image: url('../img/offers-img-4.jpg');
+}
+
 .section-offers .item-offer-left {
     z-index: 5;
     position: relative;
@@ -473,6 +482,7 @@ body {
     color: #3da3f1;
     font-size: 18px;
     font-weight: 500;
+    padding-bottom: 20px;
 }
 
 .section-offers .offer-content {
@@ -485,9 +495,13 @@ body {
 
 .section-offers .offer-txt {
     z-index: 3;
-    padding: 40px;
+    text-align: left;
+    padding-left: 40px;
+    vertical-align:middle; 
+    display:table-cell;
     background: #fff;
-    width: 365px;
+    width: 370px;
+    height: 220px;
     box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.1);
 }
 
