@@ -443,12 +443,12 @@ body {
 
 .section-offers .wrapper {
     position: relative;
-    z-index: -1;
+    margin: 0 auto;
 }
 
 .section-offers .item .offer-img {
-    background-repeat: no-repeat;
-    background-position: center center;
+    margin-bottom: 80px;
+    margin-right: 100px;
     width: 262px;
     height: 300px;
 }
@@ -469,7 +469,6 @@ body {
 }
 
 .section-offers .item-offer-left {
-    z-index: 5;
     position: relative;
     float: left;
     width: 540px;
@@ -486,7 +485,6 @@ body {
 }
 
 .section-offers .offer-content {
-    z-index: 2;
     color: #6b6b6b;
     font-size: 14px;
     line-height: 20px;
@@ -494,9 +492,12 @@ body {
 }
 
 .section-offers .offer-txt {
-    z-index: 3;
-    text-align: left;
-    padding-left: 40px;
+    float: left;
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    z-index: 2;
     vertical-align:middle; 
     display:table-cell;
     background: #fff;
